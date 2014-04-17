@@ -1,6 +1,8 @@
 # Preface
 
-This is the standard code test that we ask all of our candidates to complete. We are looking for clean, simple, testable, object-oriented code written in Java or Ruby. We ask that you don't use any external libraries to solve this problem; however, you may use external libraries or tools for build or testing purposes. Specifically, you may use JUnit, RUnit, and Ant to assist your development. The test should be completed within 5 days, however you may request more time if necessary.
+This is the standard code test that we ask all of our candidates to complete. We are looking for clean, simple, testable, object-oriented code written in Java or Ruby. We ask that you don't use any external libraries to solve this problem; however, you may use external libraries or tools for build or testing purposes. 
+
+Specifically, you may use a combination of JUnit, RUnit, Rspec, Bundler, Rake and Ant to assist your development. The test should be completed within 5 days, however you may request more time if necessary.
 
 # Problem
 
@@ -11,7 +13,6 @@ For the input to the problem you are free to implement any mechanism for feeding
 ### Output
 
 Fork this repository and add your solution. Otherwise, please provide a zip of the solution.
-
 
 ### Problem Statement
 
@@ -29,7 +30,7 @@ C            | $1.25 or $6 for a six pack
 D            | $0.15
 ```
 
-For your solution, we ask that you use either Java or Ruby. There should be a top level point of sale terminal service object that looks something like the pseudo-code below. You are free to design and implement the rest of the code however you wish, including how you specify the prices in the system:
+There should be a top level point of sale terminal service object that looks something like the pseudo-code below. You are free to design and implement the rest of the code however you wish, including how you specify the prices in the system:
 
 ```java
 terminal.setPricing(...)
@@ -43,6 +44,6 @@ result = terminal.total
 
 Here are the minimal inputs you should use for your test cases. These test cases must be shown to work in your program:
 
-Scan these items in this order: ABCDABAA; Verify the total price is $32.40.
-Scan these items in this order: CCCCCCC; Verify the total price is $7.25.
-Scan these items in this order: ABCD; Verify the total price is $15.40.
+* Scan these items in this order: ABCDABAA; Verify the total price is $32.40.
+* Scan these items in this order: CCCCCCC; Verify the total price is $7.25.
+* Scan these items in this order: ABCD; Verify the total price is $15.40.
