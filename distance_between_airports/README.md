@@ -11,7 +11,7 @@ Implement and design a single-page application that calculates and displays, giv
 # Bonuses
 
 - Mockups - preferrable in PSD format
-- Think outside the norm - suprise us!
+- Think outside the norm - surprise us!
 
 # Tools provided
 
