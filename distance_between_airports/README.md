@@ -15,7 +15,7 @@ Implement and design a single-page application that calculates and displays, giv
 
 # Tools provided
 
-You have at your disposal two Javascript functions - `IntentMedia.Distance.distance_between_airports` - which takes two, three letter airport codes as arguments, and `IntentMedia.Airports.airport_exists` which takes one, three letter airport code. 
+You have at your disposal two Javascript functions - `IntentMedia.Distances.distance_between_airports` - which takes two, three letter airport codes as arguments, and `IntentMedia.Airports.airport_exists` which takes one, three letter airport code. 
 
 An example usage of the `distance_between_airports` function is:
 
