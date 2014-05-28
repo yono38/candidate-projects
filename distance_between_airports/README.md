@@ -1,19 +1,20 @@
-# Overview
+## Overview
 
-Implement and design a single-page application that calculates and displays, given user input, the distance between two airports.
+Design and implement a single-page application that calculates and displays, given user input, the distance between two airports.
 
-# Requirements
+## Requirements
 
-- You are only required to use the following airport codes - JFK, LAX, LAS, PDX
+- A simple, clean design that puts easy user interaction first
+- Flights only between the following airports - JFK, LAX, LAS, PDX
 - Use best practice (HTML/CSS/Javascript)
-- jQuery is acceptable
+- Use of jQuery is acceptable
 
-# Bonuses
+## Bonuses
 
-- Mockups - preferrable in PSD format
+- Mockups (preferrably in PSD format)
 - Think outside the norm - surprise us!
 
-# Tools provided
+## Tools provided
 
 You have at your disposal two Javascript functions - `IntentMedia.Distances.distance_between_airports` - which takes two, three letter airport codes as arguments, and `IntentMedia.Airports.airport_exists` which takes one, three letter airport code. 
 
