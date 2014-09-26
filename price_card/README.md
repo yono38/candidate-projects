@@ -6,7 +6,7 @@ Given a mockup, scaffolding and styling, implement a complimentary price card.
 
 Given X result cards, create and insert a price card after the 5th result card.
 
-The price card must adhere to the style guidelines of the provided mockup. It must also utilize the stylesheet provided.
+The price card must adhere to the style guidelines of the provided mockup.
 
 Given the X result cards, the price card must reference the 5 cheapest result card prices, in order from highest to lowest. Clicks on price elements must open a new browser window. Each new browser window must set it's location to the corresponding result card URL.
 
@@ -24,4 +24,3 @@ Given the X result cards, the price card must reference the 5 cheapest result ca
 
 - A mockup has been provided containing the desired outcome
 - You've been provided a HTML scaffold of results cards
-- You've been provided the styling required to create your price card
